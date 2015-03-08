@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/ubuntu:14.04.2
+FROM dockerfile/ubuntu
 
 RUN apt-get update
 RUN apt-get install -y build-essential g++ curl libssl-dev apache2-utils git libxml2-dev
